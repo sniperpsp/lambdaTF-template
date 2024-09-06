@@ -22,6 +22,22 @@ Os seguintes recursos são definidos no arquivo `lambda.tf`:
 - `aws_iam_role.iam_for_lambda`: Role IAM para a função Lambda.
 - `aws_lambda_function.test_lambda`: Função Lambda.
 
-## Exemplo de Uso
 
-### `variables.tf`
+
+## Como Usar
+
+1. Clone o repositório.
+2. Configure suas credenciais AWS.
+3. Inicialize o Terraform:
+    ```sh
+    terraform init
+    ```
+4. Aplique a configuração:
+    ```sh
+    terraform apply
+    ```
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
